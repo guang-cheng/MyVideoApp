@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    style="@style/menu_item_style"
+                     >
+
+                    <ImageView
+                        android:id="@+id/iv_task_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:contentDescription="@string/imagelost"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_menu_home" />
+
+                    <TextView
+                        android:id="@+id/tv_task_toggle"
+                        style="@style/menu_item_text"
+                        android:layout_toRightOf="@+id/iv_task_icon"
+                        android:text="@string/menu_home" />
+
+                    <ImageView
+                        android:id="@+id/iv_task_next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/imagelost"
+                        android:scaleType="fitEnd"
+                        android:background="@drawable/btn_menu_next" />
+                </RelativeLayout>

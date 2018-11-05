@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tanchu2"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp" >
+
+    <TextView
+        android:id="@+id/dialog_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pay_prompt"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" >
+
+        <Button
+            android:id="@+id/dialog_negabtn"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+
+            android:background="@drawable/radiobutton_bg"
+            android:text="Cancel"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/dialog_postbtn"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/radiobutton_bg"
+            android:text="VIP"
+            android:textSize="17dp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

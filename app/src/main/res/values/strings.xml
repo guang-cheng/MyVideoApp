@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Candy Videos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+     <string name="xlistview_header_hint_normal">pull down to refresh</string>
+    <string name="xlistview_header_hint_ready">loosen to refresh dat</string>
+    <string name="xlistview_header_hint_loading">loading...</string>
+    <string name="xlistview_header_hint_success">success!</string>
+    <string name="xlistview_header_last_time">last updated time：</string>
+    <string name="xlistview_footer_hint_normal">loading more</string>
+    <string name="xlistview_footer_hint_ready">loading more...</string>
+    <string name="xlistview_footer_no_more">no more...</string>
+    <string name="xlistview_footer_more_faile">fail to load, click again</string>
+    <string name="xlistview_footer_hint_more_time">just now</string>
+    <string name="history_no_data">no data</string>
+    <string name="history_clear_faile">fail to delete</string>
+    <string name="history_clear_success">success to delet</string>
+    <string name="exits">click again to log off</string>
+    <string name="loadmore_nodata">Nothing more</string>
+    <string name="loadmore_loading">loading..</string>
+    <string name="loadmore_loading_faile">error, try again</string>
+    <string name="collection_success">save succesfull</string>
+    <string name="collection_faile">fail to save</string>
+    <string name="collection_del_success">success to cancel saving</string>
+    <string name="collection_del_faile">fail to cancel saving</string>
+
+     <string name="register_code_loading">count down clock</string>
+
+     <string name="register_submit">submit</string>
+     <string name="menu_login">login</string>
+     <string name="menu_apprecommend">App Recommend</string>
+     <string name="menu_history">History</string>
+     <string name="menu_home">Home</string>
+     <string name="menu_collection">Collection</string>
+     <string name="imagelost">image lost</string>
+     <string name="load_faile">数据请求失败</string>
+
+     <string name="time_show">刚刚</string>
+
+    <string name="service_error">something wrong with your internet～</string>
+     <string name="time_show_minute">%1$s minute ago</string>
+     <string name="time_show_hours">%1$s hour ago</string>
+    <string name="login_faile">no SIM card, invalid user</string>
+    <string name="pay_success">Purchase success.</string>
+    <string name="pay_faile">Purchase failure.</string>
+    <string name="app_size">%1$sMB</string>
+    <string name="pay_prompt">Buy VIP free to watch all videos. %1$s/day</string>
+    <string name="qudao">P604</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_frg"
+    android:paddingTop="15dp"
+    >
+    <com.qxshikong.myvideoapp.view.FlowLayout
+        android:id="@+id/flowLayout"
+        xmlns:f="http://schemas.android.com/apk/res/com.qxshikong.myvideoapp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        f:orientation="horizontal"
+        f:horizontalSpacing="10.0dip"
+        f:verticalSpacing="10.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        />
+</android.support.v4.widget.SwipeRefreshLayout>

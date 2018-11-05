@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category">
+        <item>New</item>
+        <item>Hot </item>
+        <item>Tags</item>
+        <item>VIP</item>
+    </string-array>
+
+</resources>

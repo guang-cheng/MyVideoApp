@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_item_backgroud"
+    android:orientation="vertical" >
+
+
+        <ImageView
+            android:id="@+id/iv_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_gridview"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="7dp"
+            android:paddingLeft="7dp"
+            android:layout_marginTop="4dp"
+            android:lines="2"
+            android:ellipsize="end"
+            android:text="上海沪昆高速一槽罐车侧翻 部分化学品泄漏(图)"
+            android:textColor="#ff444444"
+            android:textSize="14sp" />
+
+
+        <RelativeLayout
+            android:id="@+id/ll_time"
+            android:layout_width="wrap_content"
+            android:layout_height="25.0dip"
+            android:gravity="center_vertical"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+             >
+             <ImageView 
+                 android:id="@+id/iv_paly"
+                 android:layout_width="17.0dip"
+                 android:layout_height="10.0dip"
+                 android:layout_marginRight="5.0dip"
+                 android:layout_centerVertical="true"
+                 android:src="@drawable/ic_video_play"
+                 />
+			
+            <TextView
+                android:id="@+id/tv_play_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/iv_paly"
+                android:text="5656"
+                android:layout_centerVertical="true"
+                android:textColor="#ff999999"
+                android:textSize="11sp" />
+
+
+            <TextView
+                android:id="@+id/tv_time_length"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="108:35"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:textColor="#ff999999"
+                android:textSize="11sp" />
+
+            <ImageView
+                android:id="@+id/iv_time"
+                android:layout_width="17.0dip"
+                android:layout_height="10.0dip"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tv_time_length"
+                android:layout_marginRight="5.0dip"
+                android:src="@drawable/ic_video_time"
+                />
+        </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffffff</color>
+    
+    <color name="color_hong">#ff990000</color>
+    <color name="color_luse">#22b943</color>
+    <color name="color_zhongse">#cc7e24</color>
+    <color name="color_huangse">#fbccd616</color>
+    <color name="color_heise">#fb20201e</color>
+    <color name="color_lanse">#fb1619d6</color>
+    <color name="color_zise">#fbd616d0</color>
+    <color name="color_huise">#89433943</color>
+    <color name="font_color_tv">#ff232323</color>
+    <color name="login_name_edt">#ffb8b8b7</color>
+    <color name="login_btn_login">#ffffffff</color>
+    <color name="bg_grayish">#ffefefef</color>
+    <color name="login_forget_tv">#ff039be5</color>
+    <color name="login_btn_bg">#ffff322e</color>
+    <!-- jingri -->
+    <color name="bg_frg">#ffeeeeee</color>
+    <color name="account_activity_bg">#fff2f3f5</color>
+    <color name="split_line">#ffe1e1e1</color>
+    <color name="font_login_black">#ff333333</color>
+    <color name="btn_pressed">#ffeb6360</color>
+    <color name="btn_getsmscode_enable">#fff1f1f1</color>
+    <!--  end-->
+    <color name="light_blue">#6593cb</color>
+    <color name="ban_transparent">#e0000000</color>
+    <color name="red">#ff0000</color>
+    
+  <color name="main_color">#ff16a11e</color>
+</resources>

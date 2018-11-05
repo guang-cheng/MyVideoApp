@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_frg"
+    android:orientation="vertical"
+     >
+    <include layout="@layout/layout_title" />
+    <View
+        android:id="@+id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="#ffe0e0e0" />
+    <com.qxshikong.myvideoapp.pulltorefresh.XListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@android:color/transparent"
+        android:background="@color/bg_frg"
+        android:divider="@null"
+        />
+</LinearLayout>

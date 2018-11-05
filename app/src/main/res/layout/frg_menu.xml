@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:paddingTop="79dp"
+            android:background="@color/white" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+			 <include
+       			 android:id="@+id/rl_menu_home"
+        		 layout="@layout/menu_item_home" />
+			 <include
+       			 android:id="@+id/rl_menu_collection"
+        		 layout="@layout/menu_item_collection" />
+        		 <include
+       			 android:id="@+id/rl_menu_history"
+        		 layout="@layout/menu_item_history" />
+        		 <include
+       			 android:id="@+id/rl_menu_apprecommend"
+        		 layout="@layout/menu_item_apprecommend" />
+
+               
+            </LinearLayout>
+        </ScrollView>
+
+</FrameLayout>
